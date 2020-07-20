@@ -8,6 +8,7 @@ export default {
         format: 'es',
         sourcemap: false,
         strict: true,
+        inlineDynamicImports: true,
         banner: '(() => {',
         footer: '})();'
     },

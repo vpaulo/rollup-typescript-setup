@@ -8,6 +8,7 @@ export default {
         format: 'cjs',
         sourcemap: false,
         strict: true,
+        inlineDynamicImports: true,
         banner: '(function() {',
         footer: '})();'
     },
